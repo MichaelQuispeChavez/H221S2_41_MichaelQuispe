@@ -1,0 +1,27 @@
+.gallery {
+    padding: 20px;
+    background: #000;
+}
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items {
+    position: relative;
+    top: 100px;
+    width: 350px;
+    height: 250px;
+    margin: 5px;
+}
+
+.items img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

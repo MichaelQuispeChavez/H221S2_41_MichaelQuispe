@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.4s ease;;
+    font: 400 normal 100%/1.5 GT America Standard Regular;
+}
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Releway', sans-serif; 
+  overflow-x: hidden;
+
+}
+body::-webkit-scrollbar{
+  width: 8px;
+  background:#fafafa;
+}
+body::-webkit-scrollbar-thumb{
+  background: #F5B400;
+  border-radius: 10px;
+} 
+section{
+    height: 100vh;
+}
+.section-title{
+    font: 400 normal 100%/1.5 GT America Standard Regular;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    color:#ffa600;
+    font-weight:900;
+    font-size: 30px;
+    top: 80px;
+    left: 10px;
+}
+.btn-profesores{
+  position: relative;
+  height: 43px;
+  width: 118px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #000000;
+  font-size: 15px;
+  overflow: hidden;
+  transition: all 500ms ease;
+  border: 2px solid #fff;
+  background: #ffa600;
+  margin: 5px;
+  z-index: 0;
+  font-weight: 700;
+  cursor: pointer;
+  left: 3.5rem;
+  top: -3.3rem;
+}
+.btn-profesores::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+  background-color:aqua;
+  transition: all 500ms ease;
+  z-index: -1;
+}
+.btn-profesores:hover {
+  animation: shadow-pulse 1000ms infinite;
+  background-color:#F5B400;
+  color: #000000;
+}
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6)6;
+  }
+  100% {
+    box-shadow: 0 0 8px 16px rgba(255, 255, 255, 0);
+  }
+} 
+.botones{
+  position: absolute;
+  top: 1.6rem;
+  left: 1.60rem;
+}
+/* prueba */
+hr {
+  height: 4px;
+  width: 40%;
+  background:#ffae00 ;
+  box-shadow: 0 5px 30px rgb(255, 166, 0);
+  border-radius: 5px;
+  border: #ffa600;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+.contenido{
+  position: relative;
+  font: 400 normal 100%/1.5 GT America Standard Regular;
+  text-align: center;
+  width: 85%;
+  margin-left:75px;
+  padding: 80px;
+  display: flex;
+  font-size: 18px;
+  top: 15%;
+  left: 28px;
+ }
