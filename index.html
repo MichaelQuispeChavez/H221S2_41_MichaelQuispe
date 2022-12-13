@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Librerias para la galeria -->
+  <link rel="stylesheet" href="./css/galeria.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+   <!-- Fin fe las Librerias para el testimonio -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+  <script src="js/wow.min.js"></script>
+  <script>new WOW().init(); </script>
+
+  <title>Document</title>
+</head>
+<body>
+  <!--=============== sección video ================-->
+  <section>
+    <video src="./video/production ID_5198159.mp4" muted autoplay loop></video>
+    <div class="capa-video">
+      <div class="bienvenida">
+        <h2 class="wow animate__bounceInLeft">Bienvenidos al Colegio<br><span>Alfonso Ugarte</span></h2>
+        <div class="animated-text">
+          <h3>HONOR</h3>
+          <h3>TRABAJO</h3>
+          <h3>DISCIPLINA</h3>
+        </div>
+    </div>
+  </section>
+
+  <header>
+    <a href="#" class="brand"><img src="./icons/Logo.png" alt=""><h3>alfonso</h3><br><h3 class="ugarte">Ugarte</h3></a>
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <a href="#main">Inicio</a>
+      <a href="#about">Nosotros</a>
+      <a href="#skills">Galería</a>
+      <a href="#services">Noticias</a>
+      <a href="#work">Ubicación</a>
+      <a href="#contact">Contactos</a>
+    </div>
+    <img src="./icons/moon.png" alt="" id="icon">
+  </header>
+  <!--=============== Sección QS-MVV ================-->
+  <section class="QS-MVV wow bounceInUp" id="QS-MVV" >
+    <div class="content">
+        <div class="titulo">
+            <h2 class="section-title">¿QUIÉNES SOMOS? <hr></h2>
+           
+              <p class="contenido">Somos una Institución Educativa que brinda servicios de calidad en 
+                los niveles de educación inicial, primaria y secundaria de la EBR, contamos con una moderna 
+                infraestructura con taller de  carpintería, aula de innovación pedagógica, centro de recursos tecnológicos, laboratorio, auditorio y lozas multideportivas.</p>
+            </div>
+      <div class="card ">
+        <div class="QS-MVV-icon">
+          <img src="./icons/motivacion.png" alt="">
+        </div>
+        <div class="info">
+          <h3>MISIÓN</h3>
+          <p>Formamos a nuestros estudiantes para la vida, en respuesta a las exigencias y requerimientos del siglo XXI; 
+            comprometiéndolos a construir una sociedad más justa, fraterna, laboral y cristiana.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="QS-MVV-icon">
+          <img src="./icons/encontrar.png" alt="" width="70px">
+        </div>
+        <div class="info">
+          <h3 class="subida">VISIÓN</h3>
+          <p>Seremos una institución con rendimiento de calidad con estudiantes protagonistas de su aprendizaje; 
+            competentes líderes, democráticos, críticos, que valoren y protejan el medio ambiente y el bien común.
+        </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="QS-MVV-icon">
+          <img src="./icons/valor.png" alt="">
+        </div>
+        <div class="info">
+          <h3>VALOR</h3>
+          <p class="bajon">HONOR</p>
+          <p class="bajon">TRABAJO</p>
+          <p class="bajon">DISCIPLINA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--================ Sección Palabra de la Directora ===================-->
+  <section class="PD wow bounceInUp" id="PD">
+    <div class=" reveal">
+      <h2 class="section-title">PALABRA DE NUESTRA DIRECTORA<hr></h2>
+    </div>
+    <div class="content">
+      <div class="column col-left reveal">
+        <div class="img-card">
+          <img src="./img-profesores/Foto_Inicial-2022.jpg" alt="">
+        </div>
+      </div>
+      <div class="column col-right reveal">
+        <h2 class="content-title">Nombre de la Directora</h2>
+        <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </section>
+<!--================ Sección Profesores  ===================-->
+<!--================ Profesores Inicial  ===================-->
+<section class = "wrapper" id="uno">
+
+  <div class = "testimonials">
+      <div class = "title">
+           <h1 class="section-title">NUESTROS PROFESORES <hr></h1>
+      </div>
+      <div class = "contenido-profesores">
+        <div class="botones">
+            <button onclick="cambiadisplay('uno');" class="btn-profesores">Inicial</button>
+            <button onclick="cambiadisplaydos('dos');" class="btn-profesores" >Primaria</button>
+            <button onclick="cambiadisplaytres('tres');"  class="btn-profesores">Secundaria</button>
+        </div>
+          <div class = "profesores-list">
+              <div class = "profesores-tabs">
+                  <!-- item -->
+                  <div class = "profesores-item">
+                      <div class = "profesores-thumbnail">
+                          <img src = "images/client-1.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name">Erick Jones</h5>
+                          <small class = "profesores-designation">Managing Director, USA</small>
+                          <p class = "profesores-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis necessitatibus ut, recusandae eius beatae dolore laudantium impedit ullam voluptatibus, nemo quos tempore sed quis! Velit fugit accusantium cupiditate veniam fuga. Recusandae fuga animi sequi. Quis!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item">
+                      <div class = "profesores-thumbnail">
+                          <img src = "images/client-2.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name">Ben Smith</h5>
+                          <small class = "profesores-designation">Developer, USA</small>
+                          <p class = "profesores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quibusdam vel consequatur eveniet optio esse minus nihil cupiditate animi repellendus impedit officiis dolore error odit deleniti adipisci illum a aspernatur doloremque dolor mollitia porro fugit, est magni! Possimus, a dolorem!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item">
+                      <div class = "profesores-thumbnail">
+                          <img src = "images/client-3.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name">Ellen Harper</h5>
+                          <small class = "profesores-designation">Content Writer, USA</small>
+                          <p class = "profesores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error vel quia a repellat quasi facere velit. Amet corrupti doloremque earum, molestias ratione delectus accusamus beatae culpa sint, necessitatibus dolorum. Ea, atque maiores dolorum obcaecati consectetur nam maxime id voluptas.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item">
+                      <div class = "profesores-thumbnail">
+                          <img src = "images/client-4.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name">Jonathan Doe</h5>
+                          <small class = "profesores-designation">Designer, USA</small>
+                          <p class = "profesores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquam? Enim corporis sed nam molestias sunt aliquid iusto aperiam impedit! Enim facere doloremque maiores vitae quod ratione quos. Minima pariatur cupiditate blanditiis facere expedita nesciunt ullam nulla, tempore explicabo nihil cumque tempora in delectus dolore.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item">
+                      <div class = "profesores-thumbnail">
+                          <img src = "images/client-5.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name">Emiley McArthur</h5>
+                          <small class = "profesores-designation">Business Owner, USA</small>
+                          <p class = "profesores-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat sed, eligendi molestiae nulla dolore, ea pariatur est quidem possimus quod quibusdam repellendus nemo amet similique voluptates quis molestias reprehenderit optio fugit! Laudantium ipsam, aliquam necessitatibus, laborum modi cumque est illo eveniet veritatis sequi iure assumenda facere doloribus natus accusantium.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+              </div>
+          </div>
+
+          <div class = "show-info">
+              <div class = "show-img">
+                  <img src = "" alt = "profesores image">
+              </div>
+
+              <div class = "show-text">
+                  <div>
+                      <h4 class = "show-name"><!--Erick Jones--></h4>
+                      <small class = "show-designation"><!--Managing Director--></small>
+                  </div>
+                  <p class = "show-description"><!--Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt assumenda nostrum dignissimos et repellat illum omnis repudiandae atque, ducimus quo, est delectus tempore facilis odit ullam magnam accusantium cumque ipsa!--></p>
+                  <a href = "#">inquire now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--================== Profesores Primaria =========================-->
+<section class = "wrapper" id="dos" style="display:none">
+  <div class = "testimonials">
+    <div class = "title">
+        <h1 class="section-title">NUESTROS PROFESORES <hr></h1>
+   </div>
+      <div class = "contenido-profesores">
+        <div class="botones">
+            <button onclick="cambiadisplay('uno');" class="btn-profesores">Inicial</button>
+            <button onclick="cambiadisplaydos('dos');" class="btn-profesores" >Primaria</button>
+            <button onclick="cambiadisplaytres('tres');"  class="btn-profesores">Secundaria</button>
+        </div>
+          <div class = "profesores-list">
+              <div class = "profesores-tabs">
+                  <!-- item -->
+                  <div class = "profesores-item2">
+                      <div class = "profesores-thumbnail2">
+                          <img src = "images/client-1.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name2">Erick Jones</h5>
+                          <small class = "profesores-designation2">Managing Director, USA</small>
+                          <p class = "profesores-description2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis necessitatibus ut, recusandae eius beatae dolore laudantium impedit ullam voluptatibus, nemo quos tempore sed quis! Velit fugit accusantium cupiditate veniam fuga. Recusandae fuga animi sequi. Quis!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item2">
+                      <div class = "profesores-thumbnail2">
+                          <img src = "images/client-2.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name2">Ben Smith</h5>
+                          <small class = "profesores-designation2">Developer, USA</small>
+                          <p class = "profesores-description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quibusdam vel consequatur eveniet optio esse minus nihil cupiditate animi repellendus impedit officiis dolore error odit deleniti adipisci illum a aspernatur doloremque dolor mollitia porro fugit, est magni! Possimus, a dolorem!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item2">
+                      <div class = "profesores-thumbnail2">
+                          <img src = "images/client-3.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name2">Ellen Harper</h5>
+                          <small class = "profesores-designation2">Content Writer, USA</small>
+                          <p class = "profesores-description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error vel quia a repellat quasi facere velit. Amet corrupti doloremque earum, molestias ratione delectus accusamus beatae culpa sint, necessitatibus dolorum. Ea, atque maiores dolorum obcaecati consectetur nam maxime id voluptas.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item2">
+                      <div class = "profesores-thumbnail2">
+                          <img src = "images/client-4.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name2">Jonathan Doe</h5>
+                          <small class = "profesores-designation2">Designer, USA</small>
+                          <p class = "profesores-description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquam? Enim corporis sed nam molestias sunt aliquid iusto aperiam impedit! Enim facere doloremque maiores vitae quod ratione quos. Minima pariatur cupiditate blanditiis facere expedita nesciunt ullam nulla, tempore explicabo nihil cumque tempora in delectus dolore.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item2">
+                      <div class = "profesores-thumbnail2">
+                          <img src = "images/client-5.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name2">Emiley McArthur</h5>
+                          <small class = "profesores-designation2">Business Owner, USA</small>
+                          <p class = "profesores-description2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat sed, eligendi molestiae nulla dolore, ea pariatur est quidem possimus quod quibusdam repellendus nemo amet similique voluptates quis molestias reprehenderit optio fugit! Laudantium ipsam, aliquam necessitatibus, laborum modi cumque est illo eveniet veritatis sequi iure assumenda facere doloribus natus accusantium.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+              </div>
+          </div>
+
+
+          <div class = "show-info2">
+              <div class = "show-img2">
+                  <img src = "" alt = "profesores image">
+              </div>
+
+              <div class = "show-text2">
+                  <div>
+                      <h4 class = "show-name2"><!--Erick Jones--></h4>
+                      <small class = "show-designation2"><!--Managing Director--></small>
+                  </div>
+                  <p class = "show-description2"><!--Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt assumenda nostrum dignissimos et repellat illum omnis repudiandae atque, ducimus quo, est delectus tempore facilis odit ullam magnam accusantium cumque ipsa!--></p>
+                  <a href = "#">inquire now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!--================== Profesores Secundaria =========================-->
+<section class = "wrapper" id="tres" style="display:none">
+  <div class = "testimonials">
+    <div class = "title">
+        <h1 class="section-title">NUESTROS PROFESORES <hr></h1>
+   </div>
+      <div class = "contenido-profesores">
+        <div class="botones">
+            <button onclick="cambiadisplay('uno');" class="btn-profesores">Inicial</button>
+            <button onclick="cambiadisplaydos('dos');" class="btn-profesores" >Primaria</button>
+            <button onclick="cambiadisplaytres('tres');"  class="btn-profesores">Secundaria</button>
+        </div>
+          <div class = "profesores-list">
+              <div class = "profesores-tabs">
+                  <!-- item -->
+                  <div class = "profesores-item3">
+                      <div class = "profesores-thumbnail3">
+                          <img src = "images/client-1.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name3">Erick Jones</h5>
+                          <small class = "profesores-designation3">Managing Director, USA</small>
+                          <p class = "profesores-description3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis necessitatibus ut, recusandae eius beatae dolore laudantium impedit ullam voluptatibus, nemo quos tempore sed quis! Velit fugit accusantium cupiditate veniam fuga. Recusandae fuga animi sequi. Quis!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item3">
+                      <div class = "profesores-thumbnail3">
+                          <img src = "images/client-2.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name3">Ben Smith</h5>
+                          <small class = "profesores-designation3">Developer, USA</small>
+                          <p class = "profesores-description3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quibusdam vel consequatur eveniet optio esse minus nihil cupiditate animi repellendus impedit officiis dolore error odit deleniti adipisci illum a aspernatur doloremque dolor mollitia porro fugit, est magni! Possimus, a dolorem!</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item3">
+                      <div class = "profesores-thumbnail3">
+                          <img src = "images/client-3.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name3">Ellen Harper</h5>
+                          <small class = "profesores-designation3">Content Writer, USA</small>
+                          <p class = "profesores-description3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem error vel quia a repellat quasi facere velit. Amet corrupti doloremque earum, molestias ratione delectus accusamus beatae culpa sint, necessitatibus dolorum. Ea, atque maiores dolorum obcaecati consectetur nam maxime id voluptas.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item3">
+                      <div class = "profesores-thumbnail3">
+                          <img src = "images/client-4.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name3">Jonathan Doe</h5>
+                          <small class = "profesores-designation3">Designer, USA</small>
+                          <p class = "profesores-description3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, aliquam? Enim corporis sed nam molestias sunt aliquid iusto aperiam impedit! Enim facere doloremque maiores vitae quod ratione quos. Minima pariatur cupiditate blanditiis facere expedita nesciunt ullam nulla, tempore explicabo nihil cumque tempora in delectus dolore.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+
+                  <!-- item -->
+                  <div class = "profesores-item3">
+                      <div class = "profesores-thumbnail3">
+                          <img src = "images/client-5.jpg" alt = "">
+                      </div>
+                      <div class = "profesores-intro">
+                          <h5 class = "profesores-name3">Emiley McArthur</h5>
+                          <small class = "profesores-designation3">Business Owner, USA</small>
+                          <p class = "profesores-description3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repellat sed, eligendi molestiae nulla dolore, ea pariatur est quidem possimus quod quibusdam repellendus nemo amet similique voluptates quis molestias reprehenderit optio fugit! Laudantium ipsam, aliquam necessitatibus, laborum modi cumque est illo eveniet veritatis sequi iure assumenda facere doloribus natus accusantium.</p>
+                      </div>
+                  </div>
+                  <!-- end of item  -->
+              </div>
+          </div>
+          <div class = "show-info3">
+              <div class = "show-img3">
+                  <img src = "" alt = "profesores image">
+              </div>
+
+              <div class = "show-text3">
+                  <div>
+                      <h4 class = "show-name3"><!--Erick Jones--></h4>
+                      <small class = "show-designation3"><!--Managing Director--></small>
+                  </div>
+                  <p class = "show-description3"><!--Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt assumenda nostrum dignissimos et repellat illum omnis repudiandae atque, ducimus quo, est delectus tempore facilis odit ullam magnam accusantium cumque ipsa!--></p>
+                  <a href = "#">inquire now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!---------------------------------- Noticia  ---------------------------->
+
+<!-- ===================== Galería =====================-->
+<section class="gallery">
+    <div class = "title">
+        <h1 class="section-title">GALERÍA<hr></h1>
+   </div>
+    <div class="items-container">
+        <div class="items ">
+            <a href="assets/mobile1.jpg">
+                <img src="assets/mobile1.jpg" alt="mobile1.jpg">
+            </a>
+        </div>
+
+        <div class="items ">
+            <a href="assets/camera1.jpg">
+                <img src="assets/camera1.jpg" alt="camera1.jpg">
+            </a>
+        </div>
+
+        <div class="items ">
+            <a href="assets/watch1.jpg">
+                <img src="assets/watch1.jpg" alt="watch1.jpg">
+            </a>
+        </div>
+
+        <div class="items ">
+            <a href="assets/shoe1.jpg">
+                <img src="assets/shoe1.jpg" alt="shoe1.jpg">
+            </a>
+        </div>
+        <div class="items ">
+            <a href="assets/shoe1.jpg">
+                <img src="assets/shoe1.jpg" alt="shoe1.jpg">
+            </a>
+        </div>
+        <div class="items ">
+            <a href="assets/shoe1.jpg">
+                <img src="assets/shoe1.jpg" alt="shoe1.jpg">
+            </a>
+        </div>
+
+    
+    </div>
+</section>
+<!--========================= Estructura organizativa ==========================-->
+<section class="EO">
+    <div class="contendor_1" id="sec1">
+        <div class="btnEO">
+            <button  onclick="displayUno('sec1');">Organigrama Institucional</button>
+            <button  onclick="displayDos('sec2');" >Personal Directivo</button>
+        </div>
+
+    </div>
+    <div class="contendor_2" id="sec2" style="display:none">
+        <div class="btnEO">
+            <button  onclick="displayUno('sec1');">Organigrama Institucional</button>
+            <button  onclick="displayDos('sec2');" >Personal Directivo</button>
+        </div>
+    </div >
+</section>
+<!-------------------- Actividades escolares  ------------------------->
+
+<!--================== matriculate =========================-->
+ <section id="matriculate" class="matriculate">
+    <div class="barra"> <h2>RESERVA DE MATRICULA</h2></div>
+    <div class="requisitos">
+        <div class="CI">
+           
+            <h3>CARPETA DE INSCRIPCIÓN</h3>
+           <ol>
+             <li> Solicitud de Postulación.</li>
+             <li> Copia legible escaneada de documento de identidad del alumno(a) postulante.</li>
+             <li> Copia legible escaneada del documento de identidad de los padres y/o apoderado.</li>
+             <li> Imagen escaneada de libreta de notas del último año de estudio.</li>
+             <li> Recibo de un servicio, donde indique su domicilio (Agua, Luz, etc.).</li>
+             <li> Imagen escaneada de constancia no deudo (para estudiantes que proceden de instituciones privadas).</li>
+           </ol>
+        </div>
+        <div class="resul">
+            <h3>RESULTADO</h3>
+            <p>
+                El colegio ofrecerá una respuesta sobre los resultados del proceso 
+                de admisión de su hijo(a) en un plazo aproximado de 3 días a contar desde la recepción de la solicitud.
+                Obtenida la vacante los padres deberán formalizar el proceso con el abono de la cuota de matrícula en 
+                los próximos 5 días útiles.</p>
+        </div>
+        <div class="resultado"></div>
+    </div>
+    <div class="matriculate-contenedor" id="order">
+        <div id="form" class="row">
+            <form class="form">
+                <div class="inputBox">
+                    <input id="USERPED" placeholder="Nombre" type="text" class="form-control" >
+                    <input id="EMAUSPED" placeholder="Correo" type="text" class="form-control" />
+                </div>
+                <div class="inputBox">
+                    <input id="CELUSPED" placeholder="Celular" type="text" class="form-control"/>
+                    <input id="FOODPED" placeholder="Pedido" type="text" class="form-control"  />
+                </div>
+                <textarea id="MSGPED" placeholder="Mensaje" cols="30" rows="10" class="form-control" ></textarea>
+                <button id="btnCrear" type="submit" class="btn btn-secondary">
+                    ENVIAR
+                </button>
+            </form>
+        </div>
+    </div>
+</section> 
+
+<!--================== Ubicacion y convenio =========================-->
+<section class="UC">
+    <div class="capa-uc">
+        <h2>UBICACIÓN</h2>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.3452699189384!2d-76.38402759262694!3d-13.077290880860508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ff9ae23b25d19%3A0x20106adbe425d70b!2scolegio%20alfonso%20ugarte%20ca%C3%B1ete!5e0!3m2!1ses-419!2spe!4v1670261812914!5m2!1ses-419!2spe" 
+     allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     <div class="texto-uc">
+        <h2>CONVENIO ACADÉMICO</h2>
+     </div>
+     <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+            </div>
+            <div class="slide">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+            </div>
+        </div>
+    </div>
+
+</section>
+<!--::::Pie de Pagina::::::-->
+<footer class="pie-pagina">
+<div class="grupo-1">
+    <div class="box">
+        <figure>
+            <a href="#">
+                <img src="./icons/Logo.png" alt="Logo de SLee Dw" >
+            </a>
+        </figure>
+    </div>
+    <div class="box">
+        <h2>SOBRE NOSOTROS</h2>
+        <p>WJF9+39Q, Los Claveles, San Vicente de Cañete 15701</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+    </div>
+    <div class="box">
+        <h2>SIGUENOS</h2>
+        <div class="red-social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </div>
+</div>
+<div class="grupo-2">
+    <small>&copy; Colegio <b>Alfonso Ugarte</b> - 2022</small>
+</div>
+</footer>
+
+<!-- Librerias galeria -->
+ <!-- JQuery JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <!-- Magnific Popup JS -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="./js/galeria.js"></script>
+
+
+<!-- FIN Librerias galeria -->
+<script src="./js/dark.js"></script>
+<script src="./conexionDB/matriculate.js"></script>
+<script src="./js/botonesOE.js"></script>
+<script src="./js/actividades.js"></script>
+<script src="./js/botonesIPS.js"></script>
+<script src="./js/inicial.js"></script> 
+<script src="./js/primaria.js"></script>
+<script src="./js/secundaria.js"></script>
+<script src="./js/main.js"  charset="utf-8"></script>
+</body>
+</html>
