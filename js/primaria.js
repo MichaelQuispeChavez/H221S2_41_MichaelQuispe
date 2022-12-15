@@ -18,7 +18,7 @@ function showInfo2(item){
 
 function setActiveTab(item){
     clientTabItems2.forEach((item) => {
-        item.classList.remove('active'); // resetting active tab
+        item.classList.remove('active'); 
     });
     item.classList.add('active');
 }

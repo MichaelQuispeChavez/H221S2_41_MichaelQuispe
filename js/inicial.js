@@ -18,11 +18,11 @@ function showInfo(item){
 
 function setActiveTab(item){
     clientTabItems.forEach((item) => {
-        item.classList.remove('active'); // resetting active tab
+        item.classList.remove('active'); // restablecer pestaña activa
     });
     item.classList.add('active');
 }
 
-showInfo(clientTabItems[0]); // default active tab
+showInfo(clientTabItems[0]); // pestaña activa predeterminada
 
 

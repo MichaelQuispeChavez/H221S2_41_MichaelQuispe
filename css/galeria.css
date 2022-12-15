@@ -2,16 +2,55 @@
     padding: 20px;
     background: #000;
 }
-
+.titulo-galeria{
+    font: 400 normal 100%/1.5 GT America Standard Regular;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    display: flex;
+    text-align: center;
+    color:#ffa600;
+    font-weight:900;
+    font-size: 40px;
+    top: 30px;
+    left: 10px;
+}
 .items-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
+.cuadro-negro{
+    background-color: rgba(0,0,0,0.5);
+    position: relative;
+    width:100%;
+    height: 25%;
+    top: 75%;
+    left: 0;
+}
+.cuadro-negro p{
+    display: none;
+}.cuadro-negro h1{
+    color: #fff;
+    text-align: center;
+    font-weight:900;
+    padding: 20px;
+}
+.cuadro-negro:hover{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    position: relative;
+    top: 0;
+}
+.cuadro-negro:hover p{
+    font-weight: 800;
+    color: #ffa600;
+    display:contents;
+    text-align: center;
+}
 .items {
     position: relative;
-    top: 100px;
+    top: 60px;
     width: 350px;
     height: 250px;
     margin: 5px;
@@ -24,4 +63,5 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+
 }

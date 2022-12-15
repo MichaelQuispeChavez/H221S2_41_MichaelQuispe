@@ -1,37 +1,37 @@
 
     $('.items-container').magnificPopup({
-        delegate: 'a', // child items selector, by clicking on it popup will open
+        delegate: 'a', // selector de elementos secundarios, al hacer clic en él se abrirá una ventana emergente
         type: 'image',
-        // other options
+        // otras opciones
 
         gallery: {
-            enabled: true, // set to true to enable gallery
+            enabled: true, //establecer en verdadero para habilitar la galería
 
-            preload: [0, 2], // read about this option in next Lazy-loading section
+            preload: [0, 2], // lea sobre esta opción en la siguiente sección de carga diferida
 
             navigateByImgClick: true,
 
-            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // markup of an arrow button
+            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow mfp-arrow-%dir%"></button>', // marcado de un botón de flecha
 
-            tPrev: 'Previous (Left arrow key)', // title for left button
-            tNext: 'Next (Right arrow key)', // title for right button
-            tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
+            tPrev: 'Previous (Left arrow key)', // título para el botón izquierdo
+            tNext: 'Next (Right arrow key)', // título para el botón derecho
+            tCounter: '<span class="mfp-counter">%curr% of %total%</span>' //marcado de contador
         },
 
-        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+        mainClass: 'mfp-with-zoom', //esta clase es para la animación CSS a continuación
 
         zoom: {
-            enabled: true, // By default it's false, so don't forget to enable it
+            enabled: true, //Por defecto es falso, así que no olvides habilitarlo
 
-            duration: 300, // duration of the effect, in milliseconds
-            easing: 'ease-in-out', // CSS transition easing function
+            duration: 300, // duración del efecto, en milisegundos
+            easing: 'ease-in-out', // Función de facilitación de transición CSS
 
-            // The "opener" function should return the element from which popup will be zoomed in
-            // and to which popup will be scaled down
-            // By defailt it looks for an image tag:
+            // La función "abridor" debe devolver el elemento desde el cual se ampliará la ventana emergente
+             // y a qué ventana emergente se reducirá
+             // Por defecto busca una etiqueta de imagen:
             opener: function (openerElement) {
-                // openerElement is the element on which popup was initialized, in this case its <a> tag
-                // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+            // openerElement es el elemento en el que se inicializó la ventana emergente, en este caso su etiqueta <a>
+              // no necesita agregar la opción "abridor" si este código coincide con sus necesidades, es uno predeterminado.
                 return openerElement.is('img') ? openerElement : openerElement.find('img');
             }
         }

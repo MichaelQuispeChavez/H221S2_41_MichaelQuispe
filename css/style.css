@@ -73,7 +73,7 @@ video{
         display: none;
     }
     .img-colegio{
-        background-image: url(/img/IE\ 2.jpg);
+        background-image: url();
         background-repeat : no-repeat;
         background-size : contain;
         height: 100vh;
@@ -184,7 +184,7 @@ header{
     }
     .menu-btn{
       position: absolute;
-      background: url(/icons/menu.png)no-repeat;
+      background: url(/img-icons/menu.png)no-repeat;
       background-size: 30px;
       background-position: center;
       width: 40px;
@@ -196,7 +196,7 @@ header{
     }
     .menu-btn.active{
       z-index: 999;
-      background: url(/icons/close.png)no-repeat;
+      background: url(/img-icons/close.png)no-repeat;
       background-size: 25px;
       background-position: center;
       transition: 0.3s ease;
@@ -218,6 +218,21 @@ header{
 #icon{
   width: 30px;
   cursor: pointer;
+}
+.btn-matriculate{
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  padding: 6px 25px;
+  background: rgb(0, 0, 0);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.btn-matriculate:hover{
+  background-color:#ffae00 ;
+  transform: scale(1.1);
 }
 /*================== Sección QS-MVV ======================*/
 .QS-MVV{
@@ -341,6 +356,14 @@ header{
   height: 70vh;
   position: relative;
   top:110px;
+
+}
+.sub-profesores{
+  position: relative;
+  text-align: center;
+  top: 60px;
+  font-size:25px ;
+  
 
 }
 .testimonials .title .section-title{
@@ -840,15 +863,7 @@ header{
   position: relative;
   top: 10px;
 }
-.barra{
-  background: #F5B400;
-  font-weight: 700;
-  position: relative;
-  text-align: center;
-  padding: 20px;
-  width:100%;
-  height: 10%;
-}
+
 .row{
   position: relative;
   top: 10%;
@@ -867,7 +882,7 @@ header{
   border-radius: 10px;
 
   position: relative;
-  top:-75%;
+  top:-70%;
   left: 51%;
   width: 48%;
   height: 80%;
@@ -883,7 +898,7 @@ header{
 }
 .requisitos{
   position: relative;
-  top: 5%;
+  top: 20%;
   width: 50%;
   height: 80%;
 }
@@ -909,8 +924,16 @@ header{
   height: 300px;
 }
 .UC .texto-uc h2{
-  padding: 40px;
+  font: 400 normal 100%/1.5 GT America Standard Regular;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  display: flex;
   text-align: center;
+  color:#ffa600;
+  font-weight:900;
+  font-size: 30px;
+  top: 65px;
 }
 @-webkit-keyframes scroll {
   0% {
@@ -931,12 +954,13 @@ header{
 }
 .UC .slider {
   background: white;
-  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.568);
   height: 100px;
   margin: auto;
   overflow: hidden;
   position: relative;
   width: 100%;
+  top:15%;
 }
 .UC .slider::before, .slider::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
